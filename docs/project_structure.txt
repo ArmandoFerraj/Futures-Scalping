@@ -1,0 +1,22 @@
+futures-scalping-strategy
+|
+|_ data
+|   |_ raw
+|   |_ processed
+|   
+|
+|_ notebooks
+|
+|_ src
+|   |_ data_extraction
+|   |_ feature_extraction
+|
+|_ models
+|
+|_ tests
+|
+|_ docs
+|
+|_ README.md
+|_ requirements.txt
+|_ .gitignore
