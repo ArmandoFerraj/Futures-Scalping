@@ -1,22 +1,27 @@
 futures-scalping-strategy
-|
-|_ data
-|   |_ raw
-|   |_ processed
-|   
-|
-|_ notebooks
-|
-|_ src
-|   |_ data_extraction
-|   |_ feature_extraction
-|
-|_ models
-|
-|_ tests
-|
-|_ docs
-|
-|_ README.md
-|_ requirements.txt
-|_ .gitignore
+├── data
+│   ├── raw
+│   │   └── master_data.csv
+│   ├── processed
+│   │   └── features.csv
+│   ├── logs
+│   │   └── logs.txt
+│   └── outputs
+├── notebooks
+│   └── eda_patterns.ipynb
+├── src
+│   ├── data_extraction
+│   │   ├── daily_data_collector.py
+│   │   └── data_formatter.py  
+│   ├── feature_extraction
+│   │   ├── feature_engineering.py
+│   │   └── generate_features.py
+│   └── models
+├── models
+├── tests
+│   └── test_features.py
+├── docs
+│   └── pipeline.md
+├── README.md
+├── requirements.txt
+└── .gitignore
