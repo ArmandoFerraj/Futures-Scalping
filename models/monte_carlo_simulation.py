@@ -64,9 +64,9 @@ plt.ylabel('Frequency')
 plt.title(f'Profitability Distribution: \n {risk_reward_ratio}:1 Risk Reward, {win_rate*100}% Win Rate')
 n, bins, patches = plt.hist(sim_list_profit, bins=100)
 plt.axvspan(lower_bound * risk, upper_bound * risk, alpha=0.2, color='yellow') # Shade 95% region
-plt.axvline(lower_bound * risk, color='red', linestyle='--', label='Lower bound') # Vertical lines for bounds
-plt.axvline(upper_bound * risk, color='red', linestyle='--', label='Upper bound')
-plt.axvline(mean * risk, color='blue', linestyle='-', label='Mean')
+plt.axvline(lower_bound * risk, color='red', linestyle='--', label='Lower bound of 95% CI') # Vertical lines for bounds
+plt.axvline(upper_bound * risk, color='red', linestyle='--', label='Upper bound of 95% CI')
+plt.axvline(mean * risk, color='green', linestyle='-', label='Mean')
 
 for i in range(len(patches)): # Highlight bins within bounds (change color)
     if bins[i] >= lower_bound * risk and bins[i+1] <= upper_bound * risk:
