@@ -2,13 +2,15 @@
 Updated: 07/23/2025
 
 ## 1. Strategy
-- Description: We have two different types of *Break and Retest* (B/R) setups. B/R to the upside which is a long position and B/R to the downside which is a short position.
+- Description: We have two different types of *Break and Retest* setups. 
     - B/R Up
     - B/R Down
 
 ## 2. Liquidity Zone
-- Description: The B/R by definition is a reaction off of only the NY Open liquidity zone. Also called the NY Open box or just box.
+- Description: The B/R is a reaction off of a market open liquidity zone. We typically trade the NY Open.
     - NY Open
+    - London Open
+    - Asian Open
 
 ## 3. Box High
 - Description: This is the high of the 15-minute candle at 8:15 AM EST.
